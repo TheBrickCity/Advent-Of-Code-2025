@@ -1,7 +1,5 @@
 input = open("Day-3-Puzzle-1-Input.txt", "r")
-max_index = 0
 highest_nums = []
-
 for line in input:
     starting_index = 0
     indexed_line = [number for number in line if number != '\n']
